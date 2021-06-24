@@ -1,0 +1,644 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+.site-container {
+   background-color: white ;
+   font-family: 'Noto Sans JP', sans-serif; 
+   max-width: 1200px;
+   margin-left: 150px;
+   
+   
+}
+
+
+
+
+/*HEADER*/
+
+
+
+.header-container{
+    background-color:rgb(123, 127, 190); 
+    height: 100px;
+    width: 1204px;
+    position: fixed;
+    margin: auto;
+}
+
+
+h1 {
+    
+   
+font-family: "Montserrat",sans-serif;
+-webkit-font-smoothing: antialiased;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
+
+
+/*NAV*/
+
+nav {
+	width: 100%;
+	height: 90px;
+	background-color: #D3F2E3;  
+   padding-top: 100px;
+   border-left: rgb(123, 127, 190) 3px solid;
+   border-right: rgb(123, 127, 190) 3px solid;
+  
+}
+
+.navegador{
+    width: 100%;
+    height: 35px;
+    padding-top: 30px;   
+   
+    
+}
+
+
+.navegador ul{
+    list-style-type: none;
+    text-align: center;   
+}
+
+.navegador li{
+    font-size: 20px;
+   display: inline;
+   text-align: center;
+   color: white;
+   font-family: "Montserrat",sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navegador li a {
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    border-radius: 50px 50px 50px 50px;   
+ }
+
+ /*MAIN*/
+
+
+.photo{
+  
+    height: 500px;
+    width: 1200px;
+    background-color:white;
+    border-left: rgb(123, 127, 190) 3px solid;
+    border-right: rgb(123, 127, 190) 3px solid;
+}
+
+#info-personal {
+    height: 25%;
+    width: 25%;
+    border-radius: 20%;
+   float: left;
+   margin-top: 40px;
+   margin-left: 200px;
+   font-family: "Montserrat",sans-serif;
+-webkit-font-smoothing: antialiased;
+   
+  
+}
+
+
+
+.right-box{
+    float: right;
+    width: 50%;
+    height: 250px;
+    margin-top: 110px;
+    
+}
+
+.right-box p{
+    font-family: "Montserrat",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 22px;
+    line-height: 35px;
+    margin-right: 50px;
+    
+}
+
+.hXQgjp .Cursor {
+    opacity: 1;
+    animation: 1s linear 0s infinite normal none running fPuciQ;
+}
+
+.hXQgjp {
+    color:rgb(123, 127, 190) ;
+    display: inline-flex;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Montserrat",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: 20px;
+    
+}
+
+.hXQgjp .Cursor {
+  
+    animation-name: parpadeo;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+    -webkit-animation-name:parpadeo;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+  }
+  
+  @-moz-keyframes parpadeo{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  @-webkit-keyframes parpadeo {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+  }
+  
+  @keyframes parpadeo {  
+    0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+
+
+
+
+
+
+
+/*/FORMACION/*/
+
+.formacion {
+    height: 600px;
+    width: 1200px;
+    background-color: #D3F2E3;
+    border-left: rgb(123, 127, 190) 3px solid;
+    border-right: rgb(123, 127, 190) 3px solid;
+}
+
+.formacion h2 {
+    margin-left: 50px;
+    padding-top: 30px;
+    letter-spacing: 3px;
+    color: rgb(123, 127, 190); 
+    width: 160px;
+    height: 50px;
+    font-size: 30px;
+    font-family: "Montserrat",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+.formacion ul {
+    text-align: center;
+    padding-top: 60px;
+    list-style-type: none;
+}
+
+.formacion li{
+    word-spacing: 5pt;        
+line-height: 35pt; 
+font-size: 20px;
+color: rgb(123, 127, 190);
+
+
+
+}
+
+
+
+/*/TRABAJO/*/
+
+
+
+.trabajo {
+    height: 700px;
+    width: 1200px;
+    background-color: white;
+    border-left: rgb(123, 127, 190) 3px solid;
+    border-right: rgb(123, 127, 190) 3px solid;
+}
+
+
+.trabajo h2 {
+    margin-left: 50px;
+    padding-top: 30px;
+    letter-spacing: 3px;
+    color: rgb(123, 127, 190); 
+    width: 160px;
+    height: 50px;
+    font-size: 30px;
+    font-family: "Montserrat",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    
+    
+}
+
+.distribucion{
+    justify-content: center;
+    height: 250px;
+    width: 700px;
+    margin-left: 250px;
+    margin-top: 50px;
+    background-color: #D3F2E3;
+    text-align: center;
+    
+}
+
+
+.administracion{
+    justify-content: center;
+    height: 200px;
+    width: 700px;
+    margin-left: 250px;
+    margin-top: 30px;
+    background-color: #D3F2E3;
+    text-align: center;
+    
+}
+
+
+.distribucion h3 {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    color:rgb(123, 127, 190)
+    
+}
+
+.distribucion li{
+    list-style-type: none;
+    line-height: 30px;
+    color:rgb(123, 127, 190)
+}
+
+.administracion h3 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color:rgb(123, 127, 190)
+    
+}
+
+.administracion li{
+    list-style-type: none;
+    line-height: 30px;
+    color:rgb(123, 127, 190)
+}
+
+
+
+
+
+/*/HABILIDADES/*/
+
+.habilidades {
+    height: 400px;
+    width: 1200px;
+    background-color: #D3F2E3;
+    border-left: rgb(123, 127, 190) 3px solid;
+    border-right: rgb(123, 127, 190) 3px solid;
+
+}
+
+.habilidades h2 {
+    margin-left: 50px;
+    padding-top: 30px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: rgb(123, 127, 190); 
+    width: 160px;
+    height: 50px;
+    font-size: 30px;
+    font-family: "Montserrat",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+.skills-1 {
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.skills-1 h3 {
+    margin-top: 8px;
+    font-family: "Montserrat",sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ingles {
+    background: white;
+    color: rgb(123, 127, 190);
+    box-shadow: 0px 22px 36px rgba(0, 0, 0, 0.10);
+    border-radius: 6px;
+    width:180px;
+    height:50px;
+    margin-left: 150px;
+    font-size: 17px;
+
+}
+
+.html5 {
+    background: white;
+    color: rgb(123, 127, 190);
+    box-shadow: 10px 22px 36px rgba(0, 0, 0, 0.10);
+    border-radius: 6px;
+    width:180px;
+    height:50px;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+
+.css3 {
+    background: white;
+    color: rgb(123, 127, 190);
+    box-shadow: 10px 22px 36px rgba(0, 0, 0, 0.10);
+    border-radius: 6px;
+    width:180px;
+    height:50px;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.javascript {
+    background: white;
+    color: rgb(123, 127, 190);
+    box-shadow: 10px 22px 36px rgba(0, 0, 0, 0.10);
+    border-radius: 6px;
+    width:180px;
+    height:50px;
+    margin-left: 20px;
+}
+
+.wordpress {
+    background: white;
+    color: rgb(123, 127, 190);
+    box-shadow: 10px 22px 36px rgba(0, 0, 0, 0.10);
+    border-radius: 6px;
+    width:180px;
+    height:50px;
+    margin-left: 20px;
+}
+
+
+.skills-2 {
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 330px;
+}
+
+.skills-2 h3 {
+    margin-top: 8px;
+    font-family: "Montserrat",sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.git {
+    background: white;
+    color: rgb(123, 127, 190);
+    box-shadow: 10px 22px 36px rgba(0, 0, 0, 0.10);
+    border-radius: 6px;
+    width:180px;
+    height:50px;
+    margin-left: 20px;
+}
+
+.maquetado {
+    background: white;
+    color: rgb(123, 127, 190);
+    box-shadow: 10px 22px 36px rgba(0, 0, 0, 0.10);
+    border-radius: 6px;
+    width:180px;
+    height:50px;
+    margin-left: 20px;
+    font-size: 15px;
+    
+}
+
+.ventas {
+    background: white;
+    color: rgb(123, 127, 190);
+    box-shadow: 10px 22px 36px rgba(0, 0, 0, 0.10);
+    border-radius: 6px;
+    width:180px;
+    height:50px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+/*/CONTACTO/*/
+
+
+.redes {
+    display: flex;
+    margin-left: 350px;
+    margin-top: 60px;
+    
+}
+
+
+.sheets-1 {
+    width: 50px ;
+    height: 50px;
+    position: absolute;
+    left: 580px;
+    margin-top: -20px;
+}
+
+.sheets-2 {
+    height: 40px;
+    width:70px;
+    position: absolute;
+    left: 820px;
+    margin-top: -15px;
+
+}
+
+
+.linkedin {
+  
+    font-family: "Montserrat",sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.github {
+    
+    margin-left: 20px;
+    font-family: "Montserrat",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+
+.redes p {
+    
+    text-align: center;
+    color: rgb(123, 127, 190);
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+
+.redes a{
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+    text-align: center;
+    color: rgb(123, 127, 190);
+    text-decoration: none;
+}
+
+
+
+.linkedin .github h3 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+
+.contacto-1{
+    background-color:white ;
+    height: 760px;
+    width: 1200px;
+    font-family: "Montserrat",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    border-left: rgb(123, 127, 190) 3px solid;
+    border-right: rgb(123, 127, 190) 3px solid;
+    
+    
+}
+
+.contacto-1 h2 {
+    margin-left: 50px;
+    padding-top: 30px;
+    letter-spacing: 3px;
+    color: rgb(123, 127, 190); 
+    width: 160px;
+    height: 50px;
+    font-size: 30px;
+    font-family: "Montserrat",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    
+    
+}
+
+
+.cEvDCP {
+   
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    width: 80%;
+    padding-top: 50px;
+    padding-left: 120px;
+    color: white;
+    
+   
+}
+
+.gMJRj {
+    background-color:  #D3F2E3;
+    border: none;
+    font-size: 1 rem;
+    height: 35px;
+    color: white;
+    margin-bottom: 20px;
+    padding: 6px 12px;
+    width: 80%;
+}
+
+.kCMTKY {
+    background-color:  #D3F2E3;
+    border: none;
+    font-family: Montserrat;
+    font-size: 1 rem;
+    height: 200px;
+    color: white;
+    margin-bottom: 20px;
+    padding: 6px 12px;
+    width: 80%;
+}
+
+.jQSLFs {
+    background-color: rgb(65, 189, 175);
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 2.5;
+    padding: 0px;
+    text-align: center;
+    width: 100px;
+    border: none;
+    font-weight: bold;
+}
+
+::placeholder{
+    color: rgb(123, 127, 190);
+}
+
+
+
+
+
+
+/*/BOTON/*/
+
+#button-up{
+    width: 60px;
+    height: 60px;
+    background:rgb(123, 127, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 4px solid #9A7CD8;
+    transition: all 300ms ease;
+    transform: scale(0);
+    
+    
+}
+
+
+#button-up:hover{
+    transform: scale(1.1);
+    border-color: rgba(0,0,0,0.1);
+}
+
+
+
+   
+ 
+
